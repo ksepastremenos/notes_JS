@@ -1,10 +1,23 @@
-# notes_JS
-Greek Notes of Javascript Course
+## Notes of Javascript Course
+
+### Syntax
+
+; character after each command
 ```js
-var x = 5;
-var y = 6;
-var z = x + y;
-document.getElementById("demo").innerHTML =
-"The value of z is: " + z;
+command... ;
+command... ;
+command... ;
 ```
-test
+{} to create code hierarchies
+```js
+{ // top-level scope
+  { // nested scope
+  }
+}
+```
+() to prioritize operations
+```js
+var x = 2;
+var y = 3;
+var z = (x + y) * 3; // z = 15
+```
