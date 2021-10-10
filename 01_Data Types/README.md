@@ -28,15 +28,20 @@ Data types:
 ```js
 let x = 3.5; 
 ```
-- string // text. Indicated with "" (double quotes) or '' (single quotes). There is no difference between the two. 
+- **string** // text. Indicated with "" (double quotes) or '' (single quotes). There is no difference between the two. 
 ```js
 let y = 'variable containing text'; 
 ```
-- object // JS's main way of pushing around data. Consists of keys and corresponding values.  
+- **object** // JS's main way of pushing around data. Consists of keys and corresponding values. Indicated by key in quotes, colon, value, comma to separate (and so on) and {} to enclose.    
 ```js
-let z = { "firstKey": "First Value", "secondKey" : 2, "thirdKey":['an','array','of','strings']}
+let z = { "firstKey": "First Value", "secondKey" : 2, "thirdKey":['an','array','of','strings']};
+let someValueOfZ = z.zecondKey; //  someValueOfZ = 2
 ```
-array
-undefined
-null (typeof == "object")
-NaN
+- **array** // like with other languages, a list of things indicated with values separated by commas, enclosed in [].
+```js
+let w = [1,2,'three'];
+```
+- **boolean** // true or false
+- **undefined** // value passed when there is no value
+- **null** // intentional absence of value
+- **NaN** // meaning "Not a Number".
